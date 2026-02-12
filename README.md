@@ -12,32 +12,32 @@ integration of future modules such as delivery or manipulation systems.
 
 ##  Core Features
 
--   2D SLAM-based autonomous exploration\
--   Real-time object detection using YOLO\
--   Intelligent navigation to detected objects\
--   Modular and extensible system architecture\
+-   2D SLAM-based autonomous exploration
+-   Real-time object detection using YOLO
+-   Intelligent navigation to detected objects
+-   Modular and extensible system architecture
 -   Fully simulated in Gazebo (TurtleBot3 World)
 
 ------------------------------------------------------------------------
 
 ## Tech Stack
 
--   ROS 2 Humble\
--   Nav2\
--   SLAM Toolbox\
--   YOLO (General Object Detection Model)\
--   Gazebo Simulation\
+-   ROS 2 Humble
+-   Nav2
+-   SLAM Toolbox
+-   YOLO (General Object Detection Model)
+-   Gazebo Simulation
 -   TurtleBot3
 
 ------------------------------------------------------------------------
 
 ##  Object Detection
 
-The system uses a general-purpose YOLO model for object detection.\
+The system uses a general-purpose YOLO model for object detection.
 The detection module is modular and can be easily replaced with:
 
--   Higher-level YOLO variants\
--   Custom-trained models\
+-   Higher-level YOLO variants
+-   Custom-trained models
 -   Alternative deep learning detection frameworks
 
 This makes the system adaptable to different application requirements.
@@ -98,18 +98,18 @@ ros2 run slam_bassed_nav object_reacher.py
 
 The system is designed to support future expansion modules such as:
 
--   Autonomous delivery attachment\
--   Robotic manipulation arm\
--   Smart payload transport system\
+-   Autonomous delivery attachment
+-   Robotic manipulation arm
+-   Smart payload transport system
 -   Advanced perception modules
 
 ------------------------------------------------------------------------
 
 ##  Future Enhancements
 
--   Integration of delivery module\
--   Dynamic object tracking\
--   Multi-robot coordination\
+-   Integration of delivery module
+-   Dynamic object tracking
+-   Multi-robot coordination
 -   Real-world hardware deployment
 
 ------------------------------------------------------------------------
